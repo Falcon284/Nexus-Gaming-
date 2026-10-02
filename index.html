@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NEXUS GAMING — PC Gaming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo"><span>N</span> NEXUS <small>GAMING</small></div>
+  <input id="search" placeholder="Rechercher un produit…">
+  <nav><a href="#accueil">Accueil</a><a href="#pc">PC Gaming</a><a href="#contact">Contact</a><button id="cartBtn">🛒 Panier (<b id="count">0</b>)</button></nav>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div><p class="eyebrow">PC GAMING HAUTE PERFORMANCE</p>
+  <h1>Le meilleur du gaming<br><em>à portée de main</em></h1>
+  <p>Des PC gaming puissants, fiables et prêts à jouer.</p>
+  <a class="cta" href="#pc">Découvrir nos PC →</a></div>
+  <div class="hero-pc">🖥️<br><span>RGB POWER</span></div>
+</section>
+
+<section class="benefits"><div>🚚 <b>Livraison rapide</b><small>2 à 5 jours ouvrés</small></div><div>🛡️ <b>Paiement sécurisé</b><small>Checkout à connecter</small></div><div>🎧 <b>Service client</b><small>À votre écoute</small></div><div>✓ <b>Garantie</b><small>Selon les produits</small></div></section>
+
+<section id="pc"><h2>Nos PC Gaming</h2><div id="products" class="grid"></div></section>
+</main>
+
+<aside id="cart" class="drawer">
+  <button id="close">✕</button><h2>Votre panier</h2><div id="cartItems"></div>
+  <div class="total">Total <strong id="total">0,00 €</strong></div>
+  <button id="checkout" class="cta full">Passer au paiement</button>
+  <p class="note">Le paiement réel doit être relié à un prestataire de paiement et à un compte vendeur conforme.</p>
+</aside>
+
+<div id="modal" class="modal"><div class="modalbox"><button id="modalClose">✕</button><h2>Paiement</h2><p>Prototype de checkout NEXUS GAMING.</p>
+<label>Nom <input placeholder="Votre nom"></label><label>Email <input type="email" placeholder="vous@exemple.fr"></label>
+<label>Adresse <input placeholder="Adresse de livraison"></label><button class="cta full" id="payDemo">Continuer vers le paiement</button>
+<p class="note">Aucun paiement réel n'est effectué dans cette version.</p></div></div>
+
+<footer id="contact">NEXUS GAMING — Votre passion, notre matériel.</footer>
+<script src="script.js"></script>
+</body>
+</html>
