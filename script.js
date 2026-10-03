@@ -1,6 +1,6 @@
 const products = [
   {
-    name: "NEXUS RGB VIOLET",
+    name: "NEXUS WHITE",
     price: 2500,
     image: "pc-violet.jpg",
     specs: ["PC Gaming", "RGB", "Boîtier blanc"]
