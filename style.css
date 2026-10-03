@@ -218,3 +218,55 @@ section h2 {
     animation: none;
   }
 }
+
+/* === NEXUS GAMING : fond néon global === */
+body {
+  background-color: #050816;
+  background-image:
+    radial-gradient(
+      ellipse at 10% 15%,
+      rgba(40, 90, 255, 0.16),
+      transparent 42%
+    ),
+    radial-gradient(
+      ellipse at 90% 55%,
+      rgba(130, 45, 255, 0.14),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #050816 0%,
+      #0a1024 50%,
+      #08051a 100%
+    );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Halo discret sur les sections */
+section {
+  position: relative;
+}
+
+/* Conserve la lisibilité des textes */
+h1, h2, h3 {
+  text-shadow: 0 0 12px rgba(85, 105, 255, 0.12);
+}
+
+/* Animation douce du fond */
+@keyframes nexusBackgroundGlow {
+  0%, 100% {
+    background-position: 0% 0%, 100% 100%, 0% 50%;
+  }
+  50% {
+    background-position: 30% 20%, 70% 80%, 100% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body {
+    background-size: 160% 160%, 160% 160%, 200% 200%;
+    animation: nexusBackgroundGlow 18s ease-in-out infinite;
+  }
+}
