@@ -12,7 +12,7 @@ const products = [
     specs: ["Écran Acer", "Gaming", "Haute qualité"]
   },
   {
-    name: "NEXUS WHITE",
+    name: "NEXUS RGB VIOLET",
     price: 2300,
     image: "pc-blanc.jpg",
     specs: ["PC Gaming", "RGB blanc", "Boîtier blanc"]
