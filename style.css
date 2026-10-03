@@ -174,3 +174,47 @@ section h2 {
     0 0 12px rgba(47, 128, 255, 0.8),
     0 0 30px rgba(105, 80, 255, 0.6);
 }
+
+/* Halo futuriste animé NEXUS GAMING */
+.hero {
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(40, 120, 255, 0.25) 0%,
+    rgba(105, 80, 255, 0.12) 40%,
+    transparent 70%
+  );
+  filter: blur(25px);
+  pointer-events: none;
+  animation: nexusHalo 5s ease-in-out infinite alternate;
+}
+
+@keyframes nexusHalo {
+  from {
+    opacity: 0.45;
+    transform: translateY(-50%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before {
+    animation: none;
+  }
+}
