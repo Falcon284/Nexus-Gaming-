@@ -134,4 +134,49 @@ document.getElementById("modalClose").onclick = () => {
 
 document.getElementById("payDemo").onclick = () => {
   alert("Checkout de démonstration : aucun paiement réel n'a été effectué.");
+}/* Correction des cartes produits */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.card .pic {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.card .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card h3 {
+  margin: 0;
+  color: #f4f7ff;
+  line-height: 1.4;
+}
+
+.card .specs {
+  color: #b8c5d9;
+  line-height: 1.8;
+}
+
+.card .price {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card .cta {
+  width: 100%;
+  flex-shrink: 0;
 }
