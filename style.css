@@ -120,23 +120,22 @@ section h2 {
 }
 /* Effets gaming NEXUS */
 .card {
-  transition: box-shadow 0.25s ease,
-              border-color 0.25s ease,
-              transform 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  border: 1px solid #263b59;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: #6b5cff;
-  box-shadow: 0 0 22px rgba(92, 92, 255, 0.18);
+  box-shadow: 0 0 12px rgba(92, 92, 255, 0.35),
+              0 0 28px rgba(0, 153, 255, 0.2);
 }
 
 .card .cta {
-  transition: filter 0.25s ease,
-              box-shadow 0.25s ease;
+  transition: filter 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card .cta:hover {
-  filter: brightness(1.12);
-  box-shadow: 0 0 18px rgba(100, 80, 255, 0.35);
+  filter: brightness(1.15);
+  box-shadow: 0 0 18px rgba(100, 80, 255, 0.55);
 }
