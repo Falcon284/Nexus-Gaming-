@@ -2,7 +2,7 @@ const products = [
   {
     name: "NEXUS WHITE",
     price: 2500,
-    image: "pc-violet.jpg",
+    image: "pc-blanc.jpg",
     specs: ["PC Gaming", "RGB", "Boîtier blanc"]
   },
   {
@@ -14,7 +14,7 @@ const products = [
   {
     name: "NEXUS RGB VIOLET",
     price: 2300,
-    image: "pc-blanc.jpg",
+    image: "pc-violet.jpg",
     specs: ["PC Gaming", "RGB blanc", "Boîtier blanc"]
   }
 ];
