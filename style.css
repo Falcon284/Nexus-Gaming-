@@ -109,4 +109,12 @@
 .card .cta {
   width: 100% !important;
   flex-shrink: 0 !important;
+}#products {
+  scroll-margin-top: 100px;
+}
+
+section h2 {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
 }
