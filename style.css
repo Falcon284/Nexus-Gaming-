@@ -139,3 +139,25 @@ section h2 {
   filter: brightness(1.15);
   box-shadow: 0 0 18px rgba(100, 80, 255, 0.55);
 }
+/* NEXUS GAMING - Accueil futuriste */
+.hero {
+  background:
+    radial-gradient(ellipse at 75% 45%, rgba(40, 70, 255, 0.28), transparent 55%),
+    radial-gradient(ellipse at 85% 70%, rgba(140, 40, 255, 0.18), transparent 45%),
+    #050912;
+  border-bottom: 1px solid rgba(90, 120, 255, 0.25);
+}
+
+.hero h1 {
+  text-shadow: 0 0 18px rgba(80, 100, 255, 0.35);
+}
+
+.hero .cta {
+  box-shadow: 0 0 18px rgba(80, 90, 255, 0.22);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero .cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 28px rgba(100, 80, 255, 0.55);
+}
