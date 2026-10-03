@@ -180,3 +180,63 @@ document.getElementById("payDemo").onclick = () => {
   width: 100%;
   flex-shrink: 0;
 }
+/* Correction définitive de la disposition des produits */
+.card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  position: relative !important;
+  gap: 14px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 20px !important;
+  overflow: hidden !important;
+}
+
+.card .pic {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  height: 240px !important;
+  flex: 0 0 240px !important;
+  margin: 0 !important;
+}
+
+.card .pic img {
+  position: static !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+.card h3,
+.card .specs,
+.card .price,
+.card .cta {
+  position: static !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+
+.card h3 {
+  color: #f4f7ff !important;
+  line-height: 1.4 !important;
+}
+
+.card .specs {
+  color: #b8c5d9 !important;
+  line-height: 1.8 !important;
+}
+
+.card .price {
+  margin-top: auto !important;
+  padding-top: 12px !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+.card .cta {
+  width: 100% !important;
+  flex-shrink: 0 !important;
+}
