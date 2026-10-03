@@ -161,3 +161,16 @@ section h2 {
   transform: translateY(-3px);
   box-shadow: 0 0 28px rgba(100, 80, 255, 0.55);
 }
+
+/* NEXUS GAMING - bouton néon futuriste */
+.hero .cta {
+  box-shadow: 0 0 15px rgba(47, 128, 255, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero .cta:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 12px rgba(47, 128, 255, 0.8),
+    0 0 30px rgba(105, 80, 255, 0.6);
+}
