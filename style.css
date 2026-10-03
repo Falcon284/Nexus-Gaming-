@@ -118,3 +118,25 @@ section h2 {
   z-index: 1;
   margin-top: 40px;
 }
+/* Effets gaming NEXUS */
+.card {
+  transition: box-shadow 0.25s ease,
+              border-color 0.25s ease,
+              transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #6b5cff;
+  box-shadow: 0 0 22px rgba(92, 92, 255, 0.18);
+}
+
+.card .cta {
+  transition: filter 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.card .cta:hover {
+  filter: brightness(1.12);
+  box-shadow: 0 0 18px rgba(100, 80, 255, 0.35);
+}
