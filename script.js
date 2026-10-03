@@ -134,11 +134,4 @@ document.getElementById("modalClose").onclick = () => {
 
 document.getElementById("payDemo").onclick = () => {
   alert("Checkout de démonstration : aucun paiement réel n'a été effectué.");
-};
-.product-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    border-radius: 10px;
 }
